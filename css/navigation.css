@@ -143,8 +143,8 @@
 @media(max-width: 600px){
     .whoi__photo_author{
         animation-name: whoi__photo_author-Poyavl;
-        animation-duration: 1s;
-        animation-delay: .4s;
+        animation-duration: .2s;
+        animation-delay: .5s;
         animation-fill-mode: backwards;
 
     }
