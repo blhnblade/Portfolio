@@ -9,12 +9,12 @@
 @keyframes navigation-mobile-Poyavl{
     0%{
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateX(5.76rem);
     }
 
     100%{
         opacity: 1;
-        transform: translateX(0px);
+        transform: translateX(0);
     }
 }
 

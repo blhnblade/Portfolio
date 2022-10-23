@@ -15,7 +15,7 @@
 
 .portfolies__rabota p{
     display: inline-block;
-    border-bottom: 0.625rem solid var(--color-black);
+    border-bottom: 0.0625rem solid var(--color-black);
 }
 @media(max-width: 600px){
     .portfolies__rabota p{
@@ -33,6 +33,12 @@
 
 .portfolies__rabota img{
     margin-bottom: 2.805rem;
+    transition-property: all;
+    transition-duration: .4s;
+}
+.portfolies__rabota img:hover{
+    transform: scale(1.01);
+    box-shadow: 0rem 0.25rem 1rem rgb(0 0 0 / 50%);
 }
 @media(max-width: 600px){
     .portfolies__rabota img{

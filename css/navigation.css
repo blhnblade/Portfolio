@@ -54,7 +54,7 @@
 @keyframes whoi__name-Poyavl{
     0%{
         opacity: 0;
-        transform: translateY(-200px);
+        transform: translateY(-23.04rem);
     }
     60%{
         opacity: 0.5;
@@ -104,14 +104,14 @@
 @keyframes whoi__aboutme-Poyavl{
     0%{
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateX(-11.52);
     }
     60%{
         opacity: 0.5;
     }
     100%{
         opacity: 1;
-        transform: translateX(0px);
+        transform: translateX(0);
     }
 }
 
@@ -143,17 +143,18 @@
 @media(max-width: 600px){
     .whoi__photo_author{
         animation-name: whoi__photo_author-Poyavl;
-        animation-duration: .7s;
+        animation-duration: 1s;
+        animation-delay: .4s;
+        animation-fill-mode: backwards;
+
     }
 }
 @keyframes whoi__photo_author-Poyavl{
     0%{
         opacity: 0;
-        transform: translateY(500px);
     }
     100%{
         opacity: 1;
-        transform: translateY(0px);
     }
 }
 
