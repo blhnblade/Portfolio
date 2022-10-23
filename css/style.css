@@ -72,3 +72,9 @@ section{
 a:link, a:visited, a:active{
     text-decoration: none;
 }
+
+
+.a-blacktext:link, .a-blacktext:visited, .a-blacktext:active{
+    text-decoration: none;
+    color: var(--color-black);
+}

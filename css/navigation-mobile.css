@@ -1,3 +1,24 @@
+.navigation-mobile{
+}
+@media(max-width: 600px){
+    .navigation-mobile{
+        animation-name: navigation-mobile-Poyavl;
+        animation-duration: .7s;
+    }
+}
+@keyframes navigation-mobile-Poyavl{
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
 .navigation__box{
     width: 2.3125rem;
     height: 1.5625rem;
