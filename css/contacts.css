@@ -1,0 +1,44 @@
+.contacts_zag{
+    margin-bottom: 1.251875rem;
+}
+
+
+.contacts__p_1{
+    text-align: center;
+    margin-bottom: 1.85rem;
+}
+@media(max-width: 600px){
+    .contacts__p_1{
+        margin-bottom: 2.85rem;
+    }
+}
+
+
+.button-obertka{
+    margin-bottom: 5.36125rem;
+}
+@media(max-width: 600px){
+    .button-obertka{
+        margin-bottom: 4.36125rem;
+    }
+}
+
+
+.contacts__icons{
+    text-align: center;
+    margin-bottom: 2.86rem;
+}
+
+.contacts__icons a img{
+    width: 2.444375rem;
+}
+
+
+.contacts__icons a:not(:last-child){
+    margin-right: 3.75rem;
+}
+
+
+.contacts__p_2{
+    text-align: center;
+}

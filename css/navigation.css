@@ -1,0 +1,124 @@
+.list{
+    list-style-type: none;
+    font-family: 'Gilroy-Bold';
+    text-align: center;
+}
+
+.list li{
+    display: inline-block;
+    margin-top: 2.06rem;
+    
+}
+
+.list li a:link, .list li a:visited, .list li a:active{
+    color: var(--color-gray);
+    transition-property: all;
+    transition-duration: .4s;
+}
+
+.list li:not(:last-child){
+    margin-right: 9.72rem;
+}
+
+.list li a:hover{
+    color: var(--color-black);
+}
+
+.navigation_block{
+    margin-bottom: 1.95rem;
+}
+
+
+.black_line{
+    height: 0.0625rem;
+    background-color: var(--color-gray);
+
+}
+
+.whoi{
+}
+
+.whoi__name{
+    display:inline-block;
+    margin-bottom: 2.62rem;
+}
+@media(max-width: 600px){
+    .whoi__name{
+        display: block;
+        text-align: left;
+        margin-bottom: 1.4375rem;
+    }
+}
+
+
+.whoi__name_h1{
+    max-width: 7.71rem;
+    font-size: 2.58rem;
+    line-height: 3.68rem;
+    margin-right: 18.57rem;
+}
+@media(max-width: 600px){
+    .whoi__name_h1{
+        display: inline-block;
+        margin-right: 0;
+        font-size: 5.414rem;
+        line-height: 6.682rem;
+    }
+}
+
+.whoi__aboutme{
+    display: inline-block;
+    max-width: 9.72rem;
+    line-height: 1.375rem;
+
+    margin-right: 21.67rem;
+}
+@media(max-width: 600px){
+    .whoi__aboutme{
+        display: block;
+        text-align: left;
+        margin-right: 0;
+        max-width: 100%;
+        margin-bottom: 2.30875rem;
+        font-size: 2.03rem;
+        line-height: 2.53rem;
+    }
+}
+
+.whoi__lang{
+    display: inline-block;
+    writing-mode: vertical-lr;
+    transform: rotateZ(180deg);
+}
+@media(max-width: 600px){
+    .whoi__lang{
+        display: none;
+    }
+}
+
+
+.whoi__lang_1{
+    color: var(--color-gray);
+}
+
+.whoi__lang_2{
+    font-family: 'Gilroy-Bold';
+}
+
+.whoi__photo_author{
+    width: 100%;
+}
+
+
+.whoi__photo_block{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.whoi__photo_block{
+    object-fit: cover;
+    object-position: center;;
+}
+
+
+

@@ -1,0 +1,41 @@
+.navigation__box{
+    width: 2.3125rem;
+    height: 1.5625rem;
+    /* background-color: pink; */
+    position: relative;
+}
+
+.navigation__onoff{
+    display: none;
+}
+
+.navigation__icon{
+    display: block;
+    position: absolute;
+    width: 2.4125rem;
+    height: 0.21rem;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.navigation__icon::after{
+    content:"";
+    display: block;
+    position: absolute;
+    width: 2.4125rem;
+    height: 0.21rem;
+    background-color: black;
+    transform: translateY(-0.6rem);
+}
+
+.navigation__icon::before{
+    content:"";
+    display: block;
+    position: absolute;
+    width: 2.4125rem;
+    height: 0.21rem;
+    background-color: black;
+    transform: translateY(0.6rem);
+}

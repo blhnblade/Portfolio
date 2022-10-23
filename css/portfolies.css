@@ -1,0 +1,24 @@
+.portfolies__zag{
+    text-align: center;
+    margin-bottom: 2.9375rem;
+}
+
+
+.portfolies__rabota:not(:last-child){
+    margin-bottom: 6.193125rem;
+}
+
+
+.portfolies__rabota{
+    text-align: center;
+}
+
+.portfolies__rabota a img{
+    width: 100%;
+}
+
+
+.portfolies__rabota img{
+    margin-bottom: 2.805rem;
+}
+

@@ -1,0 +1,75 @@
+.navigation{
+}
+@media(max-width: 600px){
+    .navigation{
+        display: none;
+    }
+}
+
+.firstsection{
+    padding: 2.480625rem 0 6.50375rem 0;
+}
+@media(max-width:600px){
+    .firstsection{
+        padding: 4.8925rem 0 6.50375rem 0;
+    }
+}
+
+.infoaboutme{
+    padding-top: 7.51rem;
+    padding-bottom: 6.68rem;
+    background-color: var(--bg-color-gray);
+}
+@media(max-width: 600px){
+    .infoaboutme{
+        padding-top: 5.51rem;
+        padding-bottom: 6.68rem;
+    }
+}
+
+
+.skills {
+    padding-top: 5.68rem;
+    padding-bottom: 6.87rem;
+}
+@media(max-width: 600px){
+    .skills{
+        padding-top: 4.68rem;
+        padding-bottom: 5.87rem;
+    }
+}
+
+
+.portfolies{
+    padding-top: 7.05rem;
+    padding-bottom: 6rem;
+    background-color: var(--bg-color-gray);
+}
+
+
+.contacts{
+    padding-top: 7.14rem;
+    padding-bottom: 7.699375rem;
+}
+@media(max-width: 600px){
+    .contacts{
+        padding-top: 6.14rem;
+        padding-bottom: 5.699375rem;
+    }
+}
+
+.navigation-mobile{
+    display: none;
+    position: fixed;
+    top: 5.69rem;
+    right: 2.1rem;
+    z-index: 99;
+    
+}
+@media(max-width: 600px){
+    .navigation-mobile{
+        display: block;
+    }
+}
+
+

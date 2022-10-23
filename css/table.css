@@ -1,0 +1,16 @@
+/* FONTS */
+@import url(gilroy-bold.css);
+@import url(gilroy-medium.css);
+/*       */
+
+@import url(style.css);
+@import url(navigation.css);
+@import url(peremennie.css);
+@import url(sections.css);
+@import url(second-section.css);
+@import url(skills.css);
+@import url(helpers.css);
+@import url(typographika.css);
+@import url(portfolies.css);
+@import url(contacts.css);
+@import url(navigation-mobile.css);
