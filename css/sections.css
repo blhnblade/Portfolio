@@ -58,18 +58,5 @@
     }
 }
 
-.navigation-mobile{
-    display: none;
-    position: fixed;
-    top: 5.69rem;
-    right: 2.1rem;
-    z-index: 99;
-    
-}
-@media(max-width: 600px){
-    .navigation-mobile{
-        display: block;
-    }
-}
 
 

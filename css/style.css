@@ -49,6 +49,7 @@ body{
     background: white;
     font-family: 'Gilroy-Medium';
     color: black;
+    position: relative;
 }
 
 section{
