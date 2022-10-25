@@ -65,6 +65,7 @@
 
 .navigation-mobile__layer{
     position: fixed;
+    top: 0;
     bottom: 0;
     left: 100%;
     background-color: #ffffff;
